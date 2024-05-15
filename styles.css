@@ -1,0 +1,74 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-align: right;
+    justify-content: right;
+}
+
+#intro {
+    background: url('bg.png') no-repeat center center/cover;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.section {
+    padding: 60px 0;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.footer {
+    background-color: #333;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-outline-light:hover {
+    background-color: #333;
+    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkslategrey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
